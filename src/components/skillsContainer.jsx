@@ -5,7 +5,11 @@ class skillsContainer extends Component {
   render() {
     return (
       <div>
-        <h2>All Skills</h2>
+        <h1>Ruby on Rails</h1>
+        <h1>JavaScript</h1>
+        <h1>React</h1>
+        <h1>HTML5</h1>
+        <h1>CSS3</h1>
       </div>
     );
   }
