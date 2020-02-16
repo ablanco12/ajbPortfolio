@@ -10,7 +10,7 @@ class skillsContainer extends Component {
         <h1>React</h1>
         <h1>HTML5</h1>
         <h1>CSS3</h1>
-        <h1>ActiveStorage</h1>
+        <h2>ActiveStorage</h2>
       </div>
     );
   }
