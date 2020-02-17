@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import ContactContainer from "./contactContainer";
 
 class skillsContainer extends Component {
   state = {};
@@ -10,10 +11,9 @@ class skillsContainer extends Component {
         <h1>React</h1>
         <h1>HTML5</h1>
         <h2>CSS3</h2>
-        <h2>ActiveStorage</h2>
-      </div>
-      <div>
-        <h1>Contact Me.</h1>
+        <div>
+          <ContactContainer />
+        </div>
       </div>
     );
   }
