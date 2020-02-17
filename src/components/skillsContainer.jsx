@@ -9,8 +9,11 @@ class skillsContainer extends Component {
         <h1>JavaScript</h1>
         <h1>React</h1>
         <h1>HTML5</h1>
-        <h1>CSS3</h1>
+        <h2>CSS3</h2>
         <h2>ActiveStorage</h2>
+      </div>
+      <div>
+        <h1>Contact Me.</h1>
       </div>
     );
   }
