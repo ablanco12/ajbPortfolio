@@ -14,8 +14,6 @@ class skillsContainer extends Component {
         <div>
           <ContactContainer />
         </div>
-        <div>More stuff!</div>
-        <h1>even more stuff!</h1>
       </div>
     );
   }

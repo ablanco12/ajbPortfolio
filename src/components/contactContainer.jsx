@@ -1,17 +1,20 @@
-import React, { Component } from "react";
+import React from "react";
+import { UncontrolledCollapse, Button, CardBody, Card } from "reactstrap";
 
-class contactContainer extends Component {
-  state = {};
-  render() {
-    return (
-      <div>
-        <h1>Contact ME</h1>
-        <h1>LinkedIn</h1>
-        <h1>Phone Number</h1>
-        <h1>Email</h1>
-      </div>
-    );
-  }
-}
+const ContactContainer = () => (
+  <div>
+    <Button color="primary" id="toggler" style={{ marginBottom: "1rem" }}>
+      CONTACT ME.
+    </Button>
+    <UncontrolledCollapse toggler="#toggler">
+      <Card>
+        <CardBody>
+          <h1>andrewblanco2@outlook.com</h1>
+          <h1>7025263683</h1>.
+        </CardBody>
+      </Card>
+    </UncontrolledCollapse>
+  </div>
+);
 
-export default contactContainer;
+export default ContactContainer;
