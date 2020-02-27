@@ -18,7 +18,7 @@ const NavBar = props => {
     <div>
       <Navbar color="faded" light>
         <NavbarBrand href="/" className="mr-auto">
-          ANDREWJOSEPHBLANCO
+          ANDREW.JOSEPH.BLANCO
         </NavbarBrand>
         <NavbarToggler onClick={toggleNavbar} className="mr-2" />
         <Collapse isOpen={!collapsed} navbar>
