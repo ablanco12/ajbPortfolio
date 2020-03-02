@@ -6,11 +6,12 @@ class skillsContainer extends Component {
   render() {
     return (
       <div>
-        <h1>Ruby on Rails</h1>
         <h1>JavaScript</h1>
+        <h1>Ruby on Rails</h1>
         <h1>React</h1>
         <h1>HTML5</h1>
         <h2>CSS3</h2>
+
         <div>
           <ContactContainer />
         </div>
