@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import SkillsContainer from "./skillsContainer";
+import Projects from "./projectsContainer";
 import NavBar from "./navBar";
 import "../App.css";
 
@@ -17,6 +18,9 @@ class Main extends Component {
         <header className="App-header"></header>
         <div>
           <SkillsContainer />
+        </div>
+        <div>
+          <Projects />
         </div>
       </div>
     );
