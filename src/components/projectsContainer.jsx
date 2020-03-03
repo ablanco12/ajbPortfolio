@@ -22,13 +22,13 @@ class Projects extends React.Component {
               alt="Card image cap"
             />
             <CardBody>
-              <CardTitle>Card title</CardTitle>
-              <CardSubtitle>Card subtitle</CardSubtitle>
+              <CardTitle>brewPhoria</CardTitle>
+              <CardSubtitle>Beer Tracker</CardSubtitle>
               <CardText>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                an application for keeping track of all those beers you've
+                tried!
               </CardText>
-              <Button>Button</Button>
+              <Button>Go</Button>
             </CardBody>
           </Card>
         </div>
@@ -41,13 +41,13 @@ class Projects extends React.Component {
               alt="Card image cap"
             />
             <CardBody>
-              <CardTitle>Card title</CardTitle>
-              <CardSubtitle>Card subtitle</CardSubtitle>
+              <CardTitle>thisPacificPlace</CardTitle>
+              <CardSubtitle>traveling to the Philippines ?</CardSubtitle>
               <CardText>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                This application gives you a basic rundown of what to do's and
+                eats in the beautiful islands of the Philippines.
               </CardText>
-              <Button>Button</Button>
+              <Button>Go</Button>
             </CardBody>
           </Card>
         </div>
