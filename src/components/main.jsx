@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import SkillsContainer from "./skillsContainer";
 import Projects from "./projectsContainer";
 import NavBar from "./navBar";
+import Name from "./nameContainer";
 import "../App.css";
 
 // import { Link } from "react-router-dom";
@@ -15,7 +16,9 @@ class Main extends Component {
         <div>
           <NavBar />
         </div>
-        <header className="App-header"></header>
+        <header className="App-header">
+          <Name />
+        </header>
         <div>
           <SkillsContainer />
         </div>
