@@ -60,11 +60,12 @@ class Projects extends React.Component {
               alt="Card image cap"
             />
             <CardBody>
-              <CardTitle>Card title</CardTitle>
-              <CardSubtitle>Card subtitle</CardSubtitle>
+              <CardTitle>PetShop</CardTitle>
+              <CardSubtitle>
+                Dog Grooming business management application
+              </CardSubtitle>
               <CardText>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                an application for managing your dog grooming business.
               </CardText>
               <Button>Button</Button>
             </CardBody>
