@@ -17,7 +17,7 @@ const NavBar = props => {
   return (
     <Navbar color="faded" light>
       <NavbarBrand href="/" className="mr-auto navbar">
-        ANDREW.JOSEPH.BLANCO
+        AJB -
       </NavbarBrand>
       <NavbarToggler onClick={toggleNavbar} className="mr-2" />
       <Collapse isOpen={!collapsed} navbar>

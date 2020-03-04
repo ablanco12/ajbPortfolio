@@ -1,15 +1,16 @@
 import React from "react";
+import { Wave } from "react-animated-text";
 
-const Name = props => {
+const Name = () => {
   return (
     <div className="name">
-      <h1>
-        andrew
-        <br />
-        joseph
-        <br />
-        blanco
-      </h1>
+      <Wave
+        text="ANDREWJOSEPHBLANCO"
+        effect="color"
+        delay={1.0}
+        speed={20}
+        effectChange="#2c435d"
+      />
     </div>
   );
 };
