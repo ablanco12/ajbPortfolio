@@ -1,13 +1,17 @@
 import React, { Component } from "react";
 import ContactContainer from "./contactContainer";
-import logo from "../images/cascading-style-sheets-javascript-html-css3-jquery-png-favpng-EGGfknrdZiCNYjAFKp62Dnpy7.jpg";
+import logo from "../images/html5-logo-31819.png";
+import railsLogo from "../images/Ruby_On_Rails_Logo.svg";
+import reactLogo from "../images/KFuYQDevgA.png";
 
 class skillsContainer extends Component {
   state = {};
   render() {
     return (
       <div>
-        <img src={logo} alt="Logo" />
+        <img src={logo} alt="Logo" height="30%" width="25%" />
+        <img src={reactLogo} alt="Logo3" height="30%" width="25%" />
+        <img src={railsLogo} alt="Logo2" height="30%" width="20%" />
 
         <div>
           <ContactContainer />

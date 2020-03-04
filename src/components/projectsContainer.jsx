@@ -67,7 +67,7 @@ class Projects extends React.Component {
               <CardText>
                 an application for managing your dog grooming business.
               </CardText>
-              <Button>Button</Button>
+              <Button>Go</Button>
             </CardBody>
           </Card>
         </div>
