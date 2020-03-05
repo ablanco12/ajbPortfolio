@@ -22,9 +22,11 @@ class Main extends Component {
         <div>
           <SkillsContainer />
         </div>
-        <div>
+        <h1>Under Construction ... Still ..</h1>
+
+        {/* <div>
           <Projects />
-        </div>
+        </div> */}
       </div>
     );
   }
