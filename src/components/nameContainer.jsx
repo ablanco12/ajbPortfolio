@@ -8,7 +8,7 @@ const Name = () => {
         text="ANDREWJOSEPHBLANCO"
         effect="color"
         effectChange="#2c435d"
-        delay={1.1}
+        delay={1.3}
         speed={20}
       />
     </div>
