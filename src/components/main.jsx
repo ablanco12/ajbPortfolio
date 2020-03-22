@@ -24,9 +24,9 @@ class Main extends Component {
         </div>
         <h1>Under Construction ... Still ..</h1>
 
-        {/* <div>
+        <div>
           <Projects />
-        </div> */}
+        </div>
       </div>
     );
   }
