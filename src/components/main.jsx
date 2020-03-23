@@ -22,8 +22,8 @@ class Main extends Component {
         <div>
           <SkillsContainer />
         </div>
-        <h1>Under Construction ... Still ..</h1>
-
+        <h1>Still Under Construction..</h1>
+        <br></br>
         <div>
           <Projects />
         </div>
