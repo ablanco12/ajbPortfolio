@@ -41,6 +41,6 @@
   flex: 0 1 33%;
 }
 
-/* .card:hover {
+.card:hover {
   transition-duration: 5s;
-} */
+}
