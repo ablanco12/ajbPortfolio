@@ -30,3 +30,17 @@
 .navbar {
   font-family: Lobster;
 }
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  flex: 0 1 33%;
+}
+
+/* .card:hover {
+  transition-duration: 5s;
+} */

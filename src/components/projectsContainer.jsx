@@ -12,15 +12,10 @@ import {
 class Projects extends React.Component {
   render() {
     return (
-      <div>
-        <div className="row">
-          <Card className="column">
-            <CardImg
-              top
-              width="25%"
-              src="/assets/318x180.svg"
-              alt="Card image cap"
-            />
+      <div className="centered">
+        <div className="cards">
+          <Card className="card">
+            <CardImg src="/assets/318x180.svg" alt="Card image cap" />
             <CardBody>
               <CardTitle>brewPhoria</CardTitle>
               <CardSubtitle>Beer Tracker</CardSubtitle>
@@ -32,13 +27,8 @@ class Projects extends React.Component {
             </CardBody>
           </Card>
 
-          <Card className="column">
-            <CardImg
-              top
-              width="25%"
-              src="/assets/318x180.svg"
-              alt="Card image cap"
-            />
+          <Card className="card">
+            <CardImg src="/assets/318x180.svg" alt="Card image cap" />
             <CardBody>
               <CardTitle>thisPacificPlace</CardTitle>
               <CardSubtitle>traveling to the Philippines ?</CardSubtitle>
@@ -50,13 +40,8 @@ class Projects extends React.Component {
             </CardBody>
           </Card>
 
-          <Card className="column">
-            <CardImg
-              top
-              width="25%"
-              src="/assets/318x180.svg"
-              alt="Card image cap"
-            />
+          <Card className="card">
+            <CardImg src="/assets/318x180.svg" alt="Card image cap" />
             <CardBody>
               <CardTitle>PetShop</CardTitle>
               <CardSubtitle>
