@@ -15,7 +15,10 @@ class Projects extends React.Component {
       <div className="centered">
         <div className="cards">
           <Card className="card">
-            <CardImg src="/assets/318x180.svg" alt="Card image cap" />
+            <CardImg
+              src="src/images/Screen Shot 2020-03-30 at 12.44.14 PM.png"
+              alt="Card image cap"
+            />
             <CardBody>
               <CardTitle>brewPhoria</CardTitle>
               <CardSubtitle>Beer Tracker</CardSubtitle>
