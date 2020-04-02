@@ -16,7 +16,7 @@ class Projects extends React.Component {
         <div className="cards">
           <Card className="card">
             <CardImg
-              src="./images/Screen Shot 2020-03-30 at 12.44.14 PM.png"
+              src="../Screen Shot 2020-03-30 at 12.44.14 PM.png"
               alt="Card image cap"
             />
             <CardBody>
